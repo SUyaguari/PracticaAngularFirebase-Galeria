@@ -1,0 +1,51 @@
+<p-carousel [value]="g" [numVisible]="3" [numScroll]="3" [circular]="false" [autoplayInterval]="3000"  [responsiveOptions]="responsiveOptions">
+    <ng-template pTemplate="header">
+    </ng-template>
+    <ng-template let-product pTemplate="item" class="slider">
+        <div class="product-item">
+            <div class="product-item-content">
+                <div class="p-mb-3">
+                    <img  class="image_image" src={{product.image}} width="410" height="460" alt={{product.titulo}}></div>
+                <div class="p-mb-3">
+                    <h4 class="p-mb-1">{{product.titulo}}</h4>
+                    
+                    <h6 class="p-mt-0 p-mb-3">Autor:   {{product.autor}}</h6>
+                    <h6 class="p-mt-0 p-mb-3">Descipcion:  {{product.descripcion}}</h6>
+                    <h6 class="p-mt-0 p-mb-3">Fecha:  {{product.fecha}}</h6>
+                </div>
+            </div>
+        </div>
+    </ng-template>
+  </p-carousel>
+  <hr>
+  <div class="contenedor2">
+
+    <h2 class="title">Lista de la galeria</h2>
+    <div class="contenedor3">
+        <label class="label" >Buscar:</label>
+        <mat-form-field class="imput" >
+            <input  name="buscar" matInput placeholder="Busqueda" [(ngModel)]="filtro">
+        </mat-form-field>
+    </div>
+  </div>
+  <hr>
+  <ul>
+      <li class="lista" *ngFor="let modelo of vector  | filter:filtro" >
+        <hr>
+        <div class="contenedor"> 
+            <div class="item">   
+                <img src={{modelo.image}}  width="230px" height="250px" alt="">
+            </div>
+            <div class="item">
+                <div class="item2">
+                    <h3>Titulo: {{modelo.titulo}}</h3>
+                    <h4>Autor: {{modelo.autor}}</h4>
+                    <h4 >Descipcion: {{modelo.descripcion}}</h4>
+                    <h4>Fecha: {{modelo.fecha}}</h4>
+                </div>
+            </div>
+        </div>   
+        <hr>
+      </li>
+  </ul>
+

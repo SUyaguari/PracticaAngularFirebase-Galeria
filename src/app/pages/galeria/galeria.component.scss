@@ -1,0 +1,53 @@
+.lista{
+    list-style: none;
+}
+
+.contenedor{
+    overflow: hidden;
+    display: flex;
+}
+
+.item{
+    display: inline;
+    margin-left: 10px;
+}
+
+.item2{
+    margin-top: 50px;
+    margin-left: 30px;
+    display: inline;
+}
+
+.slider{
+    background-color: brown;
+}
+
+.contenedor2{
+    background-color: #F5B7B1;
+    display: flex;
+    flex-direction: row;
+}
+
+.contenedor3{
+    margin-top: 10px;
+    margin-left: 50px;
+    padding-left: 20px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.label{
+    font-size: 20px;
+}
+
+.imput{
+    margin-left: 10px;
+}
+
+.title{
+    margin-top: 7px;
+}
+
+.p-mb-3{
+    margin: 5px;
+}

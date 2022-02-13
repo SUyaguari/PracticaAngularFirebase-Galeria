@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <section class="container">
+        <div class="centrado">
+            <h2>Cargar Imagen</h2>
+             <span class="p-float-label">
+                 <input id="float-input"  type="text" [(ngModel)]="galeria.titulo" pInputText> 
+                 <label for="float-input">Titulo</label>
+             </span>
+             <br>
+             <span class="p-float-label">
+                 <input id="float-input" type="text" [(ngModel)]="galeria.autor" pInputText> 
+                 <label for="float-input">Autor</label>
+             </span>
+             <br>
+             <span class="p-float-label">
+                 <input id="float-input" type="text" [(ngModel)]="galeria.fecha" pInputText> 
+                 <label for="float-input">Año de creación</label>
+             </span>
+             <br>
+             <span class="p-float-label">
+                 <input id="float-input" type="text" [(ngModel)]="galeria.descripcion" pInputText> 
+                 <label for="float-input">Descripcion</label>
+             </span>
+     
+             <br>
+     
+             <input type="file"  (change)="cambioArchivo($event)" />
+             <button (click)="guardar()">Guardar</button>
+        </div>
+       
+     </section>
+
+     <div class="json">
+        <p>Esperar a que la imagen se suba a firebase despues de seleccionar el archivo, para obtener la url de la imagen, despues aplastar el guardar :)</p>
+        <hr> 
+        {{galeria  | json }}
+     </div>
+     
+
+</body>
+</html>

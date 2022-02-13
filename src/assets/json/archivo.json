@@ -1,0 +1,77 @@
+[
+    {
+        "id": "8",
+        "image_title": "Gato Pandemico",
+        "image_autor": "Piccaso",
+        "image_image": "assets/imagenes/gatito.jpg",
+        "image_description": "Gato Precavido anti covid",
+        "created_at": "1900-02-01"
+    },
+    {
+        "id": "7",
+        "image_title": "Gato 3000",
+        "image_autor": "Guayasamin",
+        "image_image": "assets/imagenes/gatito2.jpg",
+        "image_description": "Gato observador 3000",
+        "created_at": "1999-01-01"
+    },
+    {
+        "id": "6",
+        "image_title": "Gato Bugeado",
+        "image_autor": "Migel Angel",
+        "image_image": "assets/imagenes/gato3.jpg",
+        "image_description": "Gato fundido por pensar sobre su existencia",
+        "created_at": "1475-02-01"
+    },
+    {
+        "id": "5",
+        "image_title": "Hamster Sabanero",
+        "image_autor": "Leonardo Da Vinci",
+        "image_image": "assets/imagenes/hamster.jpg",
+        "image_description": "Con mi burrito Sabanero voy camino hacia Belen",
+        "created_at": "1500-02-01"
+    },
+    {
+        "id": "4",
+        "image_title": "Hamster Asombrado",
+        "image_autor": "Caravaggio",
+        "image_image": "assets/imagenes/hamster2.jpg",
+        "image_description": "Hamster asombrado",
+        "created_at": "1600-01-01"
+    },
+    {
+        "id": "3",
+        "image_title": "Gato Pandemico",
+        "image_autor": "Van Gogh",
+        "image_image": "assets/imagenes/gatito.jpg",
+        "image_description": "Gato Precavido anti covid",
+        "created_at": "1880-03-01"
+    },
+    {
+        "id": "2",
+        "image_title": "Gato 3000",
+        "image_autor": "Claude Monet",
+        "image_image": "assets/imagenes/gatito2.jpg",
+        "image_description": "Gato observador 3000",
+        "created_at": "1900-10-01"
+        
+    },
+    {
+        "id": "1",
+        "image_title": "Gato Bugeado",
+        "image_autor": "Salvador Dali",
+        "image_image": "assets/imagenes/gato3.jpg",
+        "image_description": "Gato fundido por pensar sobre su existencia",
+        "created_at": "1970-02-01"
+
+    },
+    {
+        "id": "10",
+        "image_title": "Gato Bugeado",
+        "image_autor": "Salvador Dali",
+        "image_image": "assets/imagenes/gato3.jpg",
+        "image_description": "Gato fundido por pensar sobre su existencia",
+        "created_at": "1970-02-01"
+
+    }
+]
